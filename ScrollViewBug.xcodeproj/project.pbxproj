@@ -11,6 +11,7 @@
 		F75689251952081B0010733E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F75689241952081B0010733E /* AppDelegate.m */; };
 		F75689271952081B0010733E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F75689261952081B0010733E /* Images.xcassets */; };
 		F75689331952081B0010733E /* ScrollViewBugTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F75689321952081B0010733E /* ScrollViewBugTests.m */; };
+		F756893E195208280010733E /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F756893D195208280010733E /* RootViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +34,8 @@
 		F756892C1952081B0010733E /* ScrollViewBugTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScrollViewBugTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F75689311952081B0010733E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F75689321952081B0010733E /* ScrollViewBugTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScrollViewBugTests.m; sourceTree = "<group>"; };
+		F756893C195208280010733E /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		F756893D195208280010733E /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +77,8 @@
 		F756891E1952081B0010733E /* ScrollViewBug */ = {
 			isa = PBXGroup;
 			children = (
+				F756893C195208280010733E /* RootViewController.h */,
+				F756893D195208280010733E /* RootViewController.m */,
 				F75689231952081B0010733E /* AppDelegate.h */,
 				F75689241952081B0010733E /* AppDelegate.m */,
 				F75689261952081B0010733E /* Images.xcassets */,
@@ -207,6 +212,7 @@
 			files = (
 				F75689251952081B0010733E /* AppDelegate.m in Sources */,
 				F75689221952081B0010733E /* main.m in Sources */,
+				F756893E195208280010733E /* RootViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
