@@ -44,8 +44,8 @@
     [scrollView addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"V:|[view1(==height)]|" options:0 metrics:metrics views:viewsDictionary]];
     [scrollView addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"V:|[view2(==height)]|" options:0 metrics:metrics views:viewsDictionary]];
     
-    // This should be unnecessary
-    scrollView.contentSize = CGSizeMake(width * 2, height);
+    // This should be unnecessary, but makes the scrollview work as expected in iOS 8
+    // scrollView.contentSize = CGSizeMake(width * 2, height);
 }
 
 @end
